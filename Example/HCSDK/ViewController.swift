@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import HCSDK
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Foma.sayHello(with: "창현")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
